@@ -1,0 +1,10 @@
+# 白名单模式：只跟 Sriver 相关文件
+*
+
+!.gitignore
+!sriver.py
+!test_sriver.py
+!smoke.sh
+
+!sriver/
+!sriver/*.py
