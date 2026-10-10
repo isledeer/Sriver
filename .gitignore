@@ -1,10 +1,11 @@
-# 白名单模式：只跟 Sriver 相关文件
-*
+# Python 缓存
+__pycache__/
+*.pyc
 
-!.gitignore
-!sriver.py
-!test_sriver.py
-!smoke.sh
+# 运行数据（密钥、日志、统计）
+.sriver/
+*.log
 
-!sriver/
-!sriver/*.py
+# 备份
+*.bak
+*.before-*

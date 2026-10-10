@@ -1,0 +1,39 @@
+{
+  "gen_api_base": "https://xxx/v1",
+  "gen_api_key": "sk‑xxxxxxxxxxxxxxxxxxxx",
+  "judge_api_base": "https://xxx/v1",
+  "judge_api_key": "sk‑xxxxxxxxxxxxxxxxxxxx",
+
+  "judge_fallback_api_base": "",
+  "judge_fallback_api_key": "",
+
+  "smart_keywords": ["qwen","deepseek"],
+  "block_keywords": ["vl","vision","tts","image","video"],
+  "judge_keywords": ["grok‑4.6"],
+  "judge_block": [],
+  "judge_fallback_keywords": ["agnes‑2.5‑flash"],
+  "judge_fallback_block": [],
+
+  "max_concurrency":2,
+  "gen_timeout":60,
+  "judge_timeout":30,
+  "feedback_trigger":"ture",
+  "server_host":"127.0.0.1",
+  "server_port":7860,
+  "fail_streak_threshold":2,
+  "skip_cooldown_sec":90,
+  "max_output_chars":8000,
+  "tail_keep_chars":300,
+  "model_cache_ttl":300,
+  "user_input_tag":"user_input",
+
+  "stream_buffer_threshold":150,
+  "refusal_check_head_tail_len":200,
+  "score_code_base":50,
+  "score_code_per_sensory":3,
+  "score_code_sensory_max":20,
+  "score_code_context_bonus":10,
+  "score_code_end_bonus":10,
+  "score_code_penalty_steal":‑20,
+  "draft_min_chars":120
+}
